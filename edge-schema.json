@@ -1,0 +1,5 @@
+{
+  "schema_version": "0.2.0",
+  "event": {"id":"string","sport":"string","league":"string","commence_time":"ISO-8601","home":"string","away":"string"},
+  "market": {"id":"event:market:selection","event_id":"string","market":"h2h|spreads|totals|...","selection":"string","best_price":"decimal","best_bookmaker":"string","raw_implied_probability":"decimal","market_fair_probability":"decimal","model_probability":"decimal|null","edge_probability_points":"percentage-points|null","ev":"decimal|null","confidence":"HIGH|MEDIUM|LOW|null","status":"UNMODELLED|MODELLED"}
+}
