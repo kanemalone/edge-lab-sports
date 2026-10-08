@@ -18,7 +18,7 @@ jobs:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
           ODDS_REGION: au
           ODDS_MARKETS: h2h,spreads,totals
-        run: python scripts/build_edge_data.py
+        run: python build_edge_data.py
       - name: Commit data
         run: |
           git config user.name "edge-lab-bot"
